@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="gudangQt">
+  <file>data/dialogBarang.ui</file>
+  <file>data/dialogLogin.ui</file>
+  <file>data/dialogPilihBarang.ui</file>
+  <file>data/dialogTentang.ui</file>
+  <file>data/dialogUbahKodeBarang.ui</file>
+  <file>data/logo.png</file>
+  <file>data/windowUtama.ui</file>
+  </qresource>
+</RCC>

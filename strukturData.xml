@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.2
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Jul 07, 2020 at 08:07 AM
+- Server version: 10.4.13-MariaDB
+- PHP Version: 7.4.7
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="gudang_qt" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="barang">
+                CREATE TABLE `barang` (
+                  `kode` varchar(30) NOT NULL,
+                  `nama` varchar(250) NOT NULL,
+                  `satuan` varchar(10) NOT NULL,
+                  `hargaBeli` int(11) NOT NULL,
+                  `hargaJual` int(11) NOT NULL,
+                  `jumlahStok` int(11) NOT NULL,
+                  PRIMARY KEY (`kode`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'gudang_qt'
+    -->
+    <database name="gudang_qt">
+        <!-- Table barang -->
+    </database>
+</pma_xml_export>
